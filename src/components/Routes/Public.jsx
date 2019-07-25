@@ -8,7 +8,7 @@ const Public = ({ component: Component, ...rest }) => {
   if ( userLogged ) {
     return <Redirect to="/" />
   }
-  return <Route {...rest} render={Component} />
+  return <Route {...rest} component={Component} />
   
 }
 
