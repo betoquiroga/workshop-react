@@ -16,7 +16,9 @@ const authentication = e => {
     localStorage.setItem('token', r.data.token)
     window.location = "/"
   })
-  .catch(e => console.log(e))
+  .catch(e => {
+    alert("Error al iniciar sesión")
+  })
 
 }
 
