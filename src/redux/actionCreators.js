@@ -89,7 +89,7 @@ export const getCourse = id => dispatch => {
 }
 
 export const getFragment = id => dispatch => {
-  Axios.get(`${API_URL}/clases/${id}`)
+  Axios.get(`${API_URL}/clase/${id}`)
   .then(resp => {
       return dispatch({
         type: GET_FRAGMENT,
