@@ -5,10 +5,10 @@
   "dependencies": {
     "@u-wave/react-vimeo": "^0.8.1",
     "axios": "^0.19.0",
-    "ed-grid": "^2.9.0",
-    "edteam-style-guides": "^0.0.57",
+    "ed-grid": "3.0.2",
+    "edteam-style-guides": "0.0.79",
     "jsonwebtoken": "^8.5.1",
-    "node-sass": "^4.12.0",
+    "node-sass": "4.14.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-redux": "^7.1.0",
